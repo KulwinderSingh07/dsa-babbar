@@ -41,7 +41,7 @@ void level_order_traversel(node* root){
         }else{
             cout<<temp->data<<" ";
             if(temp->left){
-                q.push(temp->left);
+                q.push(temp->left); 
             }
             if(temp->right){
                 q.push(temp->right);
