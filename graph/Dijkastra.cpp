@@ -9,7 +9,7 @@ int main()
     int src=0;
     distance[src]=0;
 
-    set<pair<int,int>> st;
+    set<pair<int,int>> st;  // we can use priority queue insteead of set
     st.insert({0,src});
     
     while (!st.empty())
